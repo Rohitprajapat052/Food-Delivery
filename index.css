@@ -1,0 +1,168 @@
+
+        
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav {
+    text-align: center;
+
+    margin: 0rem 1rem;
+
+}
+li{
+     margin: 0rem 1rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0.5rem 2rem 0rem 0rem;
+
+}
+
+a {
+    text-decoration: none;
+   padding:0rem  .2rem;
+   font-family: 'Bebas Neue', cursive;
+}
+.logo{ 
+        color: rgb(182, 71, 89); 
+        font-family: 'Bebas Neue', cursive;
+        
+    }
+
+.search {
+display: flex;
+    position: relative;
+    float: right;
+    padding:1rem  0rem;
+
+}
+
+#sign {
+    background-color: rgb(208, 108, 169);
+    border-radius: 19%;
+    height: 3rem;
+    border: none;
+    width: 7rem;
+    font-size: 0.8rem;
+
+
+}
+
+#button {
+    background-color: none;
+    border-radius: none;
+}
+
+.mid h2,
+p {
+    text-align: center;
+
+
+}
+
+.img{
+    height: 12rem;
+    margin: 0rem 0.5rem;
+    padding: 0rem 3rem;
+    border-radius: 20%;
+}
+.image {
+    display: flex;
+   
+}
+
+
+
+
+
+.logo1 {
+
+    margin: 1rem 0rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(182, 71, 89);
+}
+
+.sign {
+
+    text-align: center;
+    margin: 1rem 2rem;
+    padding: 0rem 5rem;
+
+}
+
+.sign a {
+    border-radius: 10%;
+/* display: flex; */
+    margin: 1rem 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sign i {
+    position: relative;
+    left: 9rem;
+
+}
+
+footer p {
+    width: 50%;
+    margin: -0.1rem 0rem;
+    padding: 3rem 0rem;
+}
+
+#tags {
+    align-self: left;
+
+}
+a:hover,
+  :active{
+    color:rgb(208, 108, 169);
+}
+
+
+
+@media screen and (max-width: 782px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    
+
+    .img {
+
+        height: 8rem;
+        margin: 1rem 1rem;
+        padding: 0rem 1rem;
+        border-radius: 20%;
+    }
+
+    .mid p,h2
+     {
+        
+        margin: 1rem 5rem;
+
+    }
+
+    .image {
+        flex-direction: column;
+       
+
+    }
+    .sign a {
+
+
+    margin: 0rem 0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+   
+    
+}
+    
